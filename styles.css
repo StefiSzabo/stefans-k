@@ -360,7 +360,7 @@ footer p#Footer a:hover {
     header section#Mobile-navigation section#Icon div.Mobile-nav-bar {
         display: block;
     }
-    main section#Marketing-digital article#Avantaje-și-Dezavantaje table tbody tr th, main section#Digital-Marketing article#Advantages-and-Disadvantages table tbody tr th {
+    main article#Avantaje-și-Dezavantaje table tbody tr th, main article#Advantages-and-Disadvantages table tbody tr th {
         text-orientation: sideways;
         writing-mode: vertical-lr;
     }
