@@ -54,6 +54,7 @@ a {
 }
 img {
     object-fit: scale-down;
+    max-width: 100%;
 }
 table, th, td {
     margin: 10px;
@@ -362,9 +363,6 @@ footer p#Footer a:hover {
     main section#Marketing-digital article#Avantaje-și-Dezavantaje table tbody tr th, main section#Digital-Marketing article#Advantages-and-Disadvantages table tbody tr th {
         text-orientation: sideways;
         writing-mode: vertical-lr;
-    }
-    img {
-        max-width: 100%;
     }
 }
 @media (prefers-color-scheme: dark) {
