@@ -55,6 +55,7 @@ a {
 img {
     border-radius: 100px;
     object-fit: scale-down;
+    max-width: fit-content;
 }
 table, th, td {
     margin: 10px;
@@ -337,7 +338,7 @@ footer p#Footer a:hover {
 }
 
 /* Media Queries */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     header section#Header {
         width: 225px;
         margin-top: 5px;
