@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <url>
+        <loc>https://www.szabostefanraul.infinityfreeapp.com/despre%20mine</loc>
+        <xhtml:link rel="alternative" href="https://www.szabostefanraul.infinityfreeapp.com/en/about%20me" hreflang="en" />
+        <xhtml:link rel="alternative" href="https://www.szabostefanraul.infinityfreeapp.com/despre%20mine" hreflang="ro" />
+      </url>
+      <url>
+        <loc>https://www.szabostefanraul.infinityfreeapp.com/marketing%20digital</loc>
+        <xhtml:link rel="alternative" href="https://www.szabostefanraul.infinityfreeapp.com/en/digital%20marketing" hreflang="en" />
+        <xhtml:link rel="alternative" href="https://www.szabostefanraul.infinityfreeapp.com/marketing%20digital" hreflang="ro" />
+      </url>
+      <url>
+        <loc>https://www.szabostefanraul.infinityfreeapp.com/en/about%20me</loc>
+        <xhtml:link rel="alternative" href="https://www.szabostefanraul.infinityfreeapp.com/despre%20mine" hreflang="ro" />
+        <xhtml:link rel="alternative" href="https://www.szabostefanraul.infinityfreeapp.com/en/about%20me" hreflang="en" />
+      </url>
+      <url>
+        <loc>https://www.szabostefanraul.infinityfreeapp.com/en/digital%20marketing</loc>
+        <xhtml:link rel="alternative" href="https://www.szabostefanraul.infinityfreeapp.com/marketing%20digital" hreflang="ro" />
+        <xhtml:link rel="alternative" href="https://www.szabostefanraul.infinityfreeapp.com/en/digital%20marketing" hreflang="en" />
+      </url>
+
+</urlset>

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.szabostefanraul.infinityfreeapp.com/sitemap.xml
+Sitemap: https://www.szabostefanraul.infinityfreeapp.com/image-sitemap.xml
