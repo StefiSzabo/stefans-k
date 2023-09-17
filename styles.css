@@ -336,7 +336,7 @@ footer p#Footer a:hover {
 }
 
 /* Media Queries */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     header section#Header {
         width: 225px;
         margin-top: 5px;
