@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R]
+Header always set X-Content-Type-Options "nosniff"
+FileETag Size
+<filesMatch \.(jpg|jpeg|png|gif|ico|svg|webp|avif)$>
+    Header set Cache-Control "max-age=31536000, public"
+</filesMatch>
+<filesMatch \.(js|css|html)>
+    Header set Cache-Control "max-age=180, public"
+</filesMatch>
+Options +Includes
+AddType text/html .html
+AddOutputFilter INCLUDES .html
