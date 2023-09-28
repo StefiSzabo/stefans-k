@@ -57,6 +57,7 @@ img {
     max-width: 100%;
 }
 table, th, td {
+    overflow-x: auto;
     margin: 10px;
     border: var(--button-border-no-radius, 2px dashed black);
     border-color: gray;
@@ -363,6 +364,12 @@ footer p#Footer a:hover {
     main article#Avantaje-și-Dezavantaje table tbody tr th, main article#Advantages-and-Disadvantages table tbody tr th {
         text-orientation: sideways;
         writing-mode: vertical-lr;
+    }
+    main section[style~="grid"] {
+        grid-template-columns: auto;
+    }
+    main section[style~="grid"] > section {
+        grid-column: 1 / 2;
     }
 }
 @media (prefers-color-scheme: dark) {
