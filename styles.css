@@ -365,10 +365,10 @@ footer p#Footer a:hover {
         text-orientation: sideways;
         writing-mode: vertical-lr;
     }
-    main section [style~="grid"] {
+    main section[style~="grid"] {
         grid-template-columns: auto;
     }
-    main section [style~="grid"] > section {
+    main section[style~="grid"] > section {
         grid-column: 1 / 2;
     }
 }
