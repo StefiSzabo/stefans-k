@@ -272,7 +272,7 @@ main section section, main section article {
     position: relative;
     background-color: transparent;
 }
-main section section picture img, main section article picture img {
+main section section picture img, main section section section img, main article section section img, main section article picture img {
     border-radius: 100px;
     opacity: 0.5;
     -webkit-mask-image: linear-gradient(black, transparent);
