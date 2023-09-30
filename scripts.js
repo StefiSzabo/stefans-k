@@ -14,20 +14,6 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 } */
 
-
-// Define dataLayer and the gtag function.
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}// Default all categories to 'denied' 
-gtag('consent', 'default', {
-  'ad_storage': 'denied',
-  'analytics_storage': 'denied',
-  'functionality_storage': 'denied',
-  'personalization_storage': 'denied',
-  'security_storage': 'denied',
-  'social_storage': 'denied',
-})
-
-
 /* Mobile nav bar */
 function MobileNavBar(x) {
     document.getElementById("Overlay").style.display = "block"

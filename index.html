@@ -5,7 +5,7 @@
     <head>
 
         <!--#include virtual="/head1.html"-->
-        <meta name="keywords" content="Ștefan's K, Pagină personală, Site personal">
+        <meta name="keywords" content="Ștefan's K, Pagină personală, Site personal, Blog personal">
         <meta name="description" content="Blog-ul Ștefan's K">
 
         <meta name="color-scheme" content="light">
@@ -18,14 +18,16 @@
         <link rel="alternative" href="en/" hreflang="en">
         <link rel="alternative" href="/" hreflang="ro">
         <link rel="alternative" href="en/" hreflang="x-default">
-                
-        <link rel="preload" href="styles.css" as="style" type="text/css">
-        <link rel="stylesheet" href="styles.css">
 
         <!-- Font Awesome Icons-->
         <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!--End of Font Awesome Icons-->
+                
+        <link rel="preload" href="styles.css" as="style" type="text/css">
+        <link rel="stylesheet" href="styles.css">
+        
+        <!--#include virtual="/head2.html"-->
 
         <link rel="preload" href="scripts.js" as="script" type="application/javascript">
         <script src="scripts.js" async charset="utf-8"></script>
@@ -52,6 +54,16 @@
                     "@type": "ImageObject",
                     "@id": "Logo",
                     "contentUrl": "https://www.stefans-k.infinityfreeapp.com/images/logo.png",
+                    "creditText": "Ștefan's K",
+                    "creator": {
+                        "@type": "Person",
+                        "name": "Szabo Ștefan Raul"
+                    }
+                },
+                {
+                    "@context": "https://schema.org/",
+                    "@type": "ImageObject",
+                    "contentUrl": "https://www.stefans-k.infinityfreeapp.com/images/banner-with-logo",
                     "creditText": "Ștefan's K",
                     "creator": {
                         "@type": "Person",
@@ -145,8 +157,6 @@
                 }
             }
         </script>
-        
-        <!--#include virtual="/head2.html"-->
 
     </head>
 
@@ -171,7 +181,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                 <section id="Prima-citare" style="border: hidden; box-shadow: none;">
 
-                    <q title="Prima citare"><em>Construiește ceva ce 100 de oameni <ins>iubesc</ins>, nu ceva ce 1 milion de oameni <ins>parcă le place</ins></em></q>
+                    <q title="Prima citare"><em>Construiește ceva ce 100 de oameni <ins>iubesc</ins>, nu ceva ce 1 milion de oameni <ins>doar le place</ins></em></q>
                     <p title="Autorul primei citări" id="About-cite"><small>Brian Chesky, Co-fondator și CEO Airbnb</small></p>
 
                 </section>
@@ -200,11 +210,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                 <h2 title="Marketing digital">Marketing digital</h2>
 
-                <a href="marketing digital/" hreflang="ro" style="border: none; display: inline; background: none; border-radius: 0px; box-shadow: none; text-decoration: none;">
+                <a href="marketing digital/" hreflang="ro" class="underlined-a">
 
                     <picture>
-                    <source type="image/webp" srcset="images/digital-marketing.webp">
-                    <img src="images/digital-marketing.png" alt="Un banner care prezintă multe elemente ale Marketingului Digital.">
+                        <source type="image/webp" srcset="images/digital-marketing.webp">
+                        <img src="images/digital-marketing.png" alt="Un banner care prezintă multe elemente ale Marketingului Digital.">
                     </picture>
 
                 </a>
@@ -231,7 +241,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                 <h2 title="K-Pop">K-Pop</h2>
 
-                <a href="k-pop/" hreflang="ro" style="border: none; display: inline; background: none; border-radius: 0px; box-shadow: none; text-decoration: none;">
+                <a href="k-pop/" hreflang="ro" class="underlined-a">
 
                     <picture>
                         <source type="image/webp" srcset="images/k-pop.webp">
@@ -267,7 +277,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                 <section id="Planul-meu-de-viitor">
 
-                    <a href="portofoliu/index.html#Planurile-mele-de-viitor" hreflang="ro" style="border: none; display: inline; background: none; border-radius: 0px; box-shadow: none; text-decoration: none;">
+                    <a href="portofoliu/index.html#Planurile-mele-de-viitor" hreflang="ro" class="underlined-a">
 
                         <section style="border: none; position: relative; text-align: center; box-shadow: none;">
 

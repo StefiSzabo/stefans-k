@@ -25,6 +25,22 @@
 .fa-flip-vertical {
     filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
 }
+.underlined-a {
+    border: none;
+    display: inline;
+    background: none;
+    border-radius: 0px;
+    box-shadow: none;
+    text-decoration: none;
+}
+.invisible-article {
+    border-width: 0px;
+    border-style: none;
+    border-color: unset;
+    border-radius: 0px;
+    box-shadow: none;
+    background-color: unset;
+}
 iframe [src*="ads-iframe"] {
     display: none;
 }

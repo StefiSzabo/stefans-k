@@ -22,5 +22,15 @@
         <xhtml:link rel="alternative" href="https://www.szabostefanraul.infinityfreeapp.com/marketing%20digital" hreflang="ro" />
         <xhtml:link rel="alternative" href="https://www.szabostefanraul.infinityfreeapp.com/en/digital%20marketing" hreflang="en" />
       </url>
+      <url>
+        <loc>https://www.stefans-k.infinityfreeapp.com/k-pop</loc>
+        <xhtml:link rel="alternative" href="https://www.stefans-k.infinityfreeapp.com/en/k-pop" hreflang="en" />
+        <xhtml:link rel="alternative" href="https://www.stefans-k.infinityfreeapp.com/k-pop" hreflang="ro" />
+      </url>
+      <url>
+        <loc>https://www.stefans-k.infinityfreeapp.com/en/k-pop</loc>
+        <xhtml:link rel="alternative" href="https://www.stefans-k.infinityfreeapp.com/k-pop" hreflang="ro" />
+        <xhtml:link rel="alternative" href="https://www.stefans-k.infinityfreeapp.com/en/k-pop" hreflang="en" />
+      </url>
 
 </urlset>
