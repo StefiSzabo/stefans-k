@@ -18,14 +18,19 @@
         <link rel="alternative" href="../en/contact" hreflang="en">
         <link rel="alternative" href="../contact" hreflang="ro">
         <link rel="alternative" href="../en/contact" hreflang="x-default">
-
-        <link rel="preload" href="../styles.css" as="style">
-        <link rel="stylesheet" href="../styles.css">
         
         <!-- Font Awesome Icons-->
         <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!--End of Font Awesome Icons-->
+
+        <link rel="preload" href="../styles.css" as="style">
+        <link rel="stylesheet" href="../styles.css">
+
+        <!--#include virtual="/subdirectory-head2.html"-->
+        
+        <link rel="preload" href="../scripts.js" as="script">
+        <script src="../scripts.js" async charset="utf-8"></script>
 
         <script id="Breadcrumb" type="application/ld+json" async>
             {
@@ -77,15 +82,10 @@
                 }
             }
         </script>
-        
-        <link rel="preload" href="../scripts.js" as="script">
-        <script src="../scripts.js" async charset="utf-8"></script>
-
-        <!--#include virtual="/subdirectory-head2.html"-->
 
     </head>
 
-    <body style="background-image: linear-gradient(to bottom, var(--mystic-blue, #6A8AFF) 50%, var(--mystic-violet, #B28AFF) 60%, var(--dark-purple, #3B036E) 70%);">
+    <body>
         
         <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWP9Z6B"
@@ -137,7 +137,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 
                 <picture>
                     <source type="image/webp" srcset="../images/qr-code.webp">
-                    <img src="../images/qr-code.png" alt="Un cod QR ca să puteți accesa aceste link-uri și pagini cu telefonul dvs. mai ușor">
+                    <img src="../images/qr-code.png" alt="Un cod QR pentru ca să puteți accesa aceste link-uri și pagini, cu telefonul dvs., mai ușor">
                 </picture>
 
             </section>

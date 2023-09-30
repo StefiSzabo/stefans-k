@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.szabostefanraul.infinityfreeapp.com/sitemap.xml
-Sitemap: https://www.szabostefanraul.infinityfreeapp.com/image-sitemap.xml
+Sitemap: https://www.stefans-k.infinityfreeapp.com/sitemap.xml
+Sitemap: https://www.stefans-k.infinityfreeapp.com/images-sitemap.xml
+Sitemap: https://www.stefans-k.infintyfreeapp.com/articles-sitemap.xml

@@ -18,14 +18,19 @@
         <link rel="alternative" href="../en/about me" hreflang="en">
         <link rel="alternative" href="../despre mine" hreflang="ro">
         <link rel="alternative" href="../en/about me" hreflang="x-default">
-
-        <link rel="preload" href="../styles.css" as="style">
-        <link rel="stylesheet" href="../styles.css">
         
         <!-- Font Awesome Icons-->
         <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!--End of Font Awesome Icons-->
+
+        <link rel="preload" href="../styles.css" as="style">
+        <link rel="stylesheet" href="../styles.css">
+
+        <!--#include virtual="/subdirectory-head2.html"-->
+        
+        <link rel="preload" href="../scripts.js" as="script">
+        <script src="../scripts.js" async charset="utf-8"></script>
 
         <script id="Breadcrumb" type="application/ld+json" async>
             {
@@ -102,11 +107,6 @@
                 }
             }
         </script>
-        
-        <link rel="preload" href="../scripts.js" as="script">
-        <script src="../scripts.js" async charset="utf-8"></script>
-
-        <!--#include virtual="/subdirectory-head2.html"-->
 
     </head>
 
@@ -125,7 +125,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <main>
 
-            <article id="Despre-mine" data-clarity-region="article" style="border-width: 0px; border-style: none; border-color: unset; border-radius: 0px; box-shadow: none; background-color: unset;">
+            <article id="Despre-mine" data-clarity-region="article" class="invisible-article">
             
                 <h1 title="Despre mine">Despre mine</h1>
                 
@@ -133,7 +133,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
                     <h2 title="Introducere despre mine">Introducere</h2>
                     
-                    <p>Mă numesc<span lang="hu"> Szabo</span> Ștefan Raul, am <span id="My-years" data-year="2023">19</span> ani, sunt anul 2 la Facultatea de Științe Economice din Oradea, la specializarea Marketing, lucrez și locuiesc în Oradea.</p>
+                    <p>Mă numesc<span lang="hu"> Szabo</span> Ștefan Raul, am 19 ani, sunt anul 2 la Facultatea de Științe Economice din Oradea, la specializarea Marketing, lucrez și locuiesc în Oradea.</p>
                     
                     <p><a href="../marketing digital/" hreflang="ro"><span class="fa fa-book"></span> Aflați ce este Marketing <span class="fa fa-book"></span></a></p>
                     
@@ -253,12 +253,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <p>Pe <span class="fa fa-spotify"></span> Spotify <span class="fa fa-spotify"></span> aici:</p>
                     <iframe style="border-radius:12px; width: 100%; height: 352px;" src="https://open.spotify.com/embed/playlist/6TErv5K46dnZZ6IgFqCSEE?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                     
-                    <p>Un playlist cu toate muzicile (K-Pop și non-K-Pop) care le ascult se găsește</p>
+                    <p>Un playlist cu toate muzicile (K-Pop și Non K-Pop) care le ascult se găsește</p>
                     
                     <p>Pe <span class="fa fa-spotify"></span> Spotify <span class="fa fa-spotify"></span> aici:</p>
                     <iframe style="border-radius:12px; width: 100%; height: 352px;" src="https://open.spotify.com/embed/playlist/2LA4klLxARNEU9ByaDbfEH?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                     
-                    <p>Nu este prezentat tot conținutul fiecărui playlist, iar pentru a-l vedea, dați click pe poza sau titlul playlist-ului.</p>
+                    <p>Nu este prezentat tot conținutul fiecărui playlist, iar pentru a-l vedea, dați click pe titlul sau poza lui.</p>
 
                 </section>
 
@@ -266,12 +266,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                     <h2 title="Mai mult despre mine">Mai mult despre mine</h2>
 
-                    <p>Am Playstation 4 și am jocuri precum Batman: Arkham Knight, Minecraft, UFC 3, Gran Turismo Sport, ARK: Ultimate Survivor Edition, Mortal Kombat XL, Grand Theft Auto 5,<br> Assassin's Creed: Odyssey, God Of War III Remastered, F1 2020, Five Nights at Freddy's: Help Wanted, Call Of Duty: Black Ops III Gold Edition, God Of War 2018,<br> Assassin's Creed: Valhala, The Last Of Us Remastered, Outlast, Genshin Impact<br> și am jucat toată seria Five Nights at Freddy's pe telefon înafară de Security Breach.</p>
-                    <p>Dintre acestea, cele care îmi plac cel mai mult sunt God Of War III Remastered, God Of War 2018, Assassin's Creed: Odyssey,<br> Assassin's Creed: Valhala, The Last Of Us Remastered, Call Of Duty: Black Ops III Gold Edition, Mortal Kombat XL, Outlast, Genshin Impact și, bineînțeles, Five Nights at Freddy's: Help Wanted.<br> Jocurile care îmi doresc să le am sunt God Of War: Ragnarok, Five Nights at Freddy's Core Collection (ca să joc seria și pe PS4), The Last Of Us Part II,<br> Resident Evil 2, Resident Evil 3, Far Cry Primal, Outlast: Whistleblower, Outlast 2 și Five Nights at Freddy's: Security Breach, dar bineînțeles că acestea pot aștepta în această perioadă.</p>
+                    <p>
+                        Am <a href="https://www.playstation.com/en-us/ps4/" hreflang="en" target="_blank" class="underlined-a">Playstation 4</a> și am jocuri precum <a href="https://store.playstation.com/en-ro/product/EP1018-CUSA00135_00-BAKPREORDER00001" hreflang="en" target="_blank" class="underlined-a">Batman: Arkham Knight</a>, <a href="https://www.minecraft.net/en-us" hreflang="en" target="_blank" class="underlined-a">Minecraft</a>, <a href="https://store.playstation.com/en-ro/product/EP0006-CUSA06534_00-EASPORTSUFC3GAME" hreflang="en" target="_blank" class="undelined-a">UFC 3, <a href="https://store.playstation.com/en-ro/product/EP9001-CUSA02168_00-GTSPORT000000000" hreflang="en" target="_blank" class="underlined-a">Gran Turismo Sport</a>, <a href="https://store.playstation.com/en-ro/product/EP0688-CUSA06782_00-ULTIMATEEDITION0" hreflang="en" target="_blank" class="underlined-a">ARK: Ultimate Survivor Edition</a>, <a href="https://store.playstation.com/en-ro/product/EP1018-CUSA03679_00-MORTALKOMBATXL00" hreflang="en" target="_blank" class="underlined-a">Mortal Kombat XL</a>, <a href="https://store.playstation.com/en-ro/product/EP1004-CUSA00411_00-GTAVDIGITALDOWNL" hreflang="en" target="_blank" class="underlined-a">Grand Theft Auto 5,
+                        <br><a href="https://store.playstation.com/en-ro/product/EP0001-CUSA09303_00-GAME000000000000" hreflang="en" target="_blank" class="underlined-a">Assassin's Creed: Odyssey</a>, <a href="https://store.playstation.com/en-ro/product/EP9000-CUSA01715_00-0000GODOFWAR3PS4" hreflang="en" target="_blank" class="underlined-a">God Of War III Remastered</a>, <a href="https://www.playstation.com/en-us/games/f1-2020/" hreflang="en" target="_blank" class="underlined-a">F1 2020</a>, <a href="https://store.playstation.com/en-ro/product/EP0634-CUSA16049_00-FNAFVRHELPWANTED" hreflang="en" target="_blank" class="underlined-a">Five Nights at Freddy's: Help Wanted</a>, <a href="https://store.playstation.com/en-ro/product/EP0002-CUSA02624_00-CODBO3ZOMBIESEDN" hreflang="en" target="_blank" class="underlined-a">Call Of Duty: Black Ops III Gold Edition</a>, <a href="https://store.playstation.com/en-ro/product/EP9000-CUSA07410_00-0000000GODOFWARN" hreflang="en" target="_blank" class="underlined-a">God Of War 2018</a>,
+                        <br><a href="https://store.playstation.com/en-ro/product/EP0001-PPSA01490_00-GAME000000000000" hreflang="en" target="_blank" class="underlined-a">Assassin's Creed: Valhala</a>, <a href="https://store.playstation.com/en-ro/product/EP9000-CUSA00556_00-THELASTOFUS00000" hreflang="en" target="_blank" class="underlined-a">The Last Of Us Remastered</a>, <a href="https://store.playstation.com/en-ro/product/EP4467-CUSA00409_00-OUTLAST000000000" hreflang="en" target="_blank" class="underlined-a">Outlast</a>, <a href="https://store.playstation.com/en-ro/product/EP6261-PPSA02584_00-OSRELSIEEGENSHIN" hreflang="en" class="underlined-a">Genshin Impact</a>
+                        <br>și am jucat toată seria <a href="https://en.wikipedia.org/wiki/Five_Nights_at_Freddy%27s" hreflang="en" target="_blank" class="underlined-a">Five Nights at Freddy's</a> pe telefon înafară de <a href="https://store.playstation.com/en-ro/product/EP0634-PPSA04677_00-9725862811759774" hreflang="en" target="_blank" class="underlined-a">Security Breach</a>.
+                    </p>
+                    
+                    <p>
+                        Dintre acestea, cele care îmi plac cel mai mult sunt <a href="https://store.playstation.com/en-ro/product/EP9000-CUSA01715_00-0000GODOFWAR3PS4" hreflang="en" target="_blank" class="underlined-a">God Of War III Remastered</a>, <a href="https://store.playstation.com/en-ro/product/EP9000-CUSA07410_00-0000000GODOFWARN" hreflang="en" target="_blank" class="underlined-a">God Of War 2018</a>, <a href="https://store.playstation.com/en-ro/product/EP0001-CUSA09303_00-GAME000000000000" hreflang="en" target="_blank" class="underlined-a">Assassin's Creed: Odyssey</a>,
+                        <br><a href="https://store.playstation.com/en-ro/product/EP0001-PPSA01490_00-GAME000000000000" hreflang="en" target="_blank" class="underlined-a">Assassin's Creed: Valhala</a>, <a href="https://store.playstation.com/en-ro/product/EP9000-CUSA00556_00-THELASTOFUS00000" hreflang="en" target="_blank" class="underlined-a">The Last Of Us Remastered</a>, <a href="https://store.playstation.com/en-ro/product/EP0002-CUSA02624_00-CODBO3ZOMBIESEDN" hreflang="en" target="_blank" class="underlined-a">Call Of Duty: Black Ops III Gold Edition</a>, <a href="https://store.playstation.com/en-ro/product/EP1018-CUSA03679_00-MORTALKOMBATXL00" hreflang="en" target="_blank" class="underlined-a">Mortal Kombat XL</a>, <a href="https://store.playstation.com/en-ro/product/EP4467-CUSA00409_00-OUTLAST000000000" hreflang="en" target="_blank" class="underlined-a">Outlast</a>, <a href="https://store.playstation.com/en-ro/product/EP6261-PPSA02584_00-OSRELSIEEGENSHIN" hreflang="en" class="underlined-a">Genshin Impact</a> și, bineînțeles, <a href="https://store.playstation.com/en-ro/product/EP0634-CUSA16049_00-FNAFVRHELPWANTED" hreflang="en" target="_blank" class="underlined-a">Five Nights at Freddy's: Help Wanted</a>.
+                        <br>Jocurile care îmi doresc să le am sunt <a href="https://store.playstation.com/en-ro/product/EP9000-PPSA08330_00-GOWRAGNAROK00000" hreflang="en" target="_blank" class="underlined-a">God Of War: Ragnarok</a>, <a href="https://www.gamestop.com/video-games/products/five-nights-at-freddys-core-collection/11111004.html" hreflang="en" target="_blank" class="underlined-a">Five Nights at Freddy's Core Collection</a> (ca să joc seria și pe PS4), <a href="https://store.playstation.com/en-ro/product/EP9000-CUSA10249_00-THELASTOFUSPART2" hreflang="en" target="_blank" class="underlined-a">The Last Of Us Part II</a>,
+                        <br><a href="https://store.playstation.com/en-ro/product/EP0102-PPSA04289_00-BH2R000000000001" hreflang="en" target="_blank" class="underlined-a">Resident Evil 2</a>, <a href="https://store.playstation.com/en-ro/product/EP0102-PPSA03953_00-BH3ROFF000000001" hreflang="en" target="_blank" class="underlined-a">Resident Evil 3</a>, <a href="https://store.playstation.com/en-ro/product/EP0001-CUSA03309_00-PRIMALGAME000001" hreflang="en" target="_blank" class="underlined-a">Far Cry Primal</a>, <a href="https://store.playstation.com/en-ro/product/EP4467-CUSA00409_00-OUTLASTDLC000000" hreflang="en" target="_blank" class="underlined-a">Outlast: Whistleblower</a>, <a href="https://store.playstation.com/en-ro/product/EP4467-CUSA06633_00-OUTLAST200000000" hreflang="en" target="_blank" class="underlined-a">Outlast 2</a> și <a href="https://store.playstation.com/en-ro/product/EP0634-PPSA04677_00-9725862811759774" hreflang="en" target="_blank" class="underlined-a">Five Nights at Freddy's: Security Breach</a>, dar bineînțeles că acestea pot aștepta.
+                    </p>
+                    
                     <p>Îmi plac filmele, jocurile, locurile, poveștile etc. horror.</p>
+                    
                     <p>
                         Filmele mele preferate sunt Stranger Things și serialul coreean Start-Up.
-                        <br> Pe lângă acestea, am văzut multe alte filme și seriale (horror și non-horror) precum ZombiVers (unde apare și Tsuki, o membră din Billlie), Suntem Morți cu Toții, Fata de Nicăieri, Ragnarok, Good Morning Call,<br> Slasher, Holograma mea iubită, O aplicație de coșmar, Fizic: 100, Jocul Calamarului, Resident Evil: Întuneric Infinit, Veronica, Starea Vremii și a Iubirii, The Exorcism of Karen Walker,<br> ... și ne izbăvește de cel rău..., Assassin's Creed: Codul Asasinului, Resident Evil: Biohazard, Proiectul Adam, Ne Iartă Nouă Greșelile Noastre și BLACKPINK: Light Up the Sky.
+                        <br> Pe lângă acestea, am văzut multe alte filme și seriale (horror și non-horror) precum ZombiVers (unde apare și Tsuki, o membră din Billlie), Suntem Morți cu Toții, Fata de Nicăieri, Ragnarok, Good Morning Call,
+                        <br>Slasher, Holograma mea iubită, O aplicație de coșmar, Fizic: 100, Jocul Calamarului, Resident Evil: Întuneric Infinit, Veronica, Starea Vremii și a Iubirii, The Exorcism of Karen Walker,
+                        <br>... și ne izbăvește de cel rău..., Assassin's Creed: Codul Asasinului, Resident Evil: Biohazard, Proiectul Adam, Ne Iartă Nouă Greșelile Noastre și BLACKPINK: Light Up the Sky.
                     </p>
                 
                 </section>

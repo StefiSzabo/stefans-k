@@ -82,4 +82,14 @@
     <xhtml:link rel="alternative" href="https://stefans-k.infninityfreeapp.com/en/policies/community%20guidelines" hreflang="en" />
     <xhtml:link rel="alternative" href="https://stefans-k.infninityfreeapp.com/politici/regulile%20comunității" hreflang="ro" />
   </url>
+  <url>
+    <loc>https://www.stefans-k.infinityfreeapp.com/politici/politica%20cookie-urilor</loc>
+    <xhtml:link rel="alternative" href="https://stefans-k.infinityfreeapp.com/en/policies/cookies%20policy" hreflang="en" />
+    <xhtml:link rel="alternative" href="https://stefans-k.infinityfreeapp.com/politici/politica%20cookie-urilor" hreflang="ro" />
+  </url>
+  <url>
+    <loc>https://stefans-k.infinityfreeapp.com/en/policies/cookies%20policy/</loc>
+    <xhtml:link rel="alternative" href="https://stefans-k.infinityfreeapp.com/politici/politica%20cookie-urilor" hreflang="ro" />
+    <xhtml:link rel="alternative" href="https://stefans-k.infinityfreeapp.com/en/policies/cookies%20policy" hreflang="en" />
+  </url>
 </urlset>
