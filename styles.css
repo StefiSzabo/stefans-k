@@ -270,7 +270,7 @@ q {
     transition-duration: var(--transition-duration, 0.5s);
 }
 q em ins {
-    color: #999900;
+    color: #ffff80;
 }
 p#About-cite {
     color: green;
