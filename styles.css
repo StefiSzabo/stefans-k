@@ -1,5 +1,6 @@
 :root {
-    --blue: #335fff;
+    --blue: #335fff
+    --mystic-blue: #6A8AFF;
     --mystic-violet: #B28AFF;
     --dark-purple: #3B036E;
     --box-shadow-10px: 2px 2px 10px black;
@@ -71,7 +72,7 @@ a {
     text-align: center;
     text-decoration: none;
     outline: none;
-    background-color: var(--blue, #335fff);
+    background-color: var(--mystic-blue, #6A8AFF);
     border: var(--button-border-no-radius, 2px dashed black);
     border-radius: var(--border-radius, 100px);
     box-shadow: var(--box-shadow-10px, 2px 2px 10px black);
@@ -325,7 +326,7 @@ strong, h1:hover, main section#Header a:hover, main section#Navigation a:visited
     color: var(--dark-purple, #3B036E);
 }
 a:hover {
-    color: var(--blue, #335fff);
+    color: var(--mystic-blue, #6A8AFF);
     box-shadow: var(--box-shadow-5px, 2px 2px 5px rgba(0, 0, 0, 0.5), 2px 2px 5px rgba(0, 0, 0, 0.5) inset);
     text-shadow: var(--text-shadow-5px, 2px 2px 5px black);
     background-color: var(--dark-purple, #3B036E);
@@ -333,7 +334,7 @@ a:hover {
 a:active {
     box-shadow: none;
     background-color: var(--dark-purple, #3B036E);
-    color: var(--blue, #335fff);
+    color: var(--mystic-blue, #6A8AFF);
 }
 a:focus {
     color: var(--dark-purple, #3B036E);
@@ -346,12 +347,12 @@ header section#Header a:hover, header section#Navigation nav a:hover {
 header section#Navigation nav a:hover {
     box-shadow: var(--box-shadow-5px, 2px 2px 5px rgba(0, 0, 0, 0.5), 2px 2px 5px rgba(0, 0, 0, 0.5) inset);
     text-shadow: var(--text-shadow-5px, 2px 2px 5px rgba(0, 0, 0, 0.5), 2px 2px 5px rgba(0, 0, 0, 0.5) inset);
-    color: var(--blue, #335fff);
+    color: var(--mystic-blue, #6A8AFF);
 }
 header section#Mobile-navigation section#Overlay nav a:hover {
     box-shadow: var(--box-shadow-5px, 2px 2px 5px rgba(0, 0, 0, 0.5), 2px 2px 5px rgba(0, 0, 0, 0.5) inset);
     text-shadow: var(--text-shadow-5px, 2px 2px 5px rgba(0, 0, 0, 0.5), 2px 2px 5px rgba(0, 0, 0, 0.5) inset);
-    color: var(--blue, #335fff);
+    color: var(--mystic-blue, #6A8AFF);
 }
 header::after {
     clear: both;
@@ -398,7 +399,7 @@ footer p#Footer a:hover {
 }
 @media (prefers-color-scheme: dark) {
     :root {
-        --blue: black;
+        --mystic-blue: black;
         --mystic-violet: white;
     }
     header div {
@@ -414,7 +415,7 @@ footer p#Footer a:hover {
         color: #B28AFF;
     }
     body {
-        background-image: linear-gradient(to bottom, var(--blue, #335fff) 20%, black 50%, var(--dark-purple, #3B036E) 80%);
+        background-image: linear-gradient(to bottom, var(--mystic-blue, #6A8AFF) 20%, black 50%, var(--dark-purple, #3B036E) 80%);
     }
     a {
         color: white;
@@ -433,7 +434,7 @@ footer p#Footer a:hover {
         background-color: transparent;
     }
     main {
-        background-image: linear-gradient(to bottom, var(--blue, #335fff) 0%, black 50%, var(--dark-purple, #3B036E) 100%)
+        background-image: linear-gradient(to bottom, var(--mystic-blue, #6A8AFF) 0%, black 50%, var(--dark-purple, #3B036E) 100%)
     }
     main h1 {
         color: white;
