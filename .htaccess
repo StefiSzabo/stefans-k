@@ -1,3 +1,8 @@
+ErrorDocument 400 https://www.stefans-k.infinityfreeapp.com/en/errors/400-bad-request
+ErrorDocument 401 https://www.stefans-k.infinityfreeapp.com/en/errors/401-unauthorized
+ErrorDocument 403 https://www.stefans-k.infinityfreeapp.com/en/errors/403-forbidden
+ErrorDocument 404 https://www.stefans-k.infinityfreeapp.com/en/errors/404-not-found
+ErrorDocument 503 http://www.stefans-k.infinityfreeapp.com/en/errors/503-service-unavailable.html
 RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R]
@@ -9,3 +14,4 @@ FileETag Size
 Options +Includes
 AddType text/html .html
 AddOutputFilter INCLUDES .html
+ErrorDocument 500 https://www.stefans-k.infinityfreeapp.com/en/errors/500-internal-server-error
