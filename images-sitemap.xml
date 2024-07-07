@@ -12,16 +12,6 @@
 			<image:title>Banner-ul cu logo-ul Ștefan's K</image:title>
 			<image:caption>Acesta este banner-ul cu logo-ul Ștefan's K</image:caption>
 		</image:image>
-		<image:image>
-			<image:loc>https://www.stefans-k.infinityfreeapp.com/images/digital-marketing.png</image:loc>
-			<image:title>Marketing Digital</image:title>
-			<image:caption>Un banner care prezintă multe elemente ale Marketingului Digital.</image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://www.stefans-k.infinityfreeapp.com/images/k-pop.png</image:loc>
-			<image:title>Un logo al K-Pop-ului</image:title>
-			<image:caption>Un logo al K-Pop-ului.</image:caption>
-		</image:image>
 	</url>
 	<url>
 		<loc>https://www.stefans-k.infinityfreeapp.com/en/</loc>
@@ -32,18 +22,8 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://www.stefans-k.infinityfreeapp.com/images/banner-with-logo.jpg</image:loc>
-			<image:title>The banner with Ștefan's K logo</image:title>
+			<image:title>The banner with the Ștefan's K logo</image:title>
 			<image:caption>This is the banner with Ștefan's K logo</image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://www.stefans-k.infinityfreeapp.com/images/digital-marketing.png</image:loc>
-			<image:title>Digital Marketing</image:title>
-			<image:caption>A banner that shows many elements of Digital Marketing.</image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://www.stefans-k.infinityfreeapp.com/images/k-pop.png</image:loc>
-			<image:title>A K-Pop logo</image:title>
-			<image:caption>A K-Pop logo.</image:caption>
 		</image:image>
 	</url>
 </urlset>
