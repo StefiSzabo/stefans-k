@@ -3,4 +3,3 @@ Allow: /
 
 Sitemap: https://www.stefans-k.infinityfreeapp.com/sitemap.xml
 Sitemap: https://www.stefans-k.infinityfreeapp.com/images-sitemap.xml
-Sitemap: https://www.stefans-k.infintyfreeapp.com/articles-sitemap.xml
