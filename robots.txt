@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /en/errors/
 
 Sitemap: https://www.stefans-k.infinityfreeapp.com/sitemap.xml
 Sitemap: https://www.stefans-k.infinityfreeapp.com/images-sitemap.xml
