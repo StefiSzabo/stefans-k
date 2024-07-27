@@ -90,7 +90,7 @@ table, th, td {
     border-radius: var(--border-radius, 100px);
 }
 header div#Background-image {
-    background-image: url(banner-with-logo.jpg);
+    background-image: url(banner-with-logo.webp);
     height: 50%;
     padding-bottom: 500px;
     background-position: center;
